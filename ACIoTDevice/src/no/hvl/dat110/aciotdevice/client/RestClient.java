@@ -4,9 +4,6 @@ import com.google.gson.Gson;
 import no.hvl.dat110.ac.restservice.AccessEntry;
 import no.hvl.dat110.ac.restservice.AccessLog;
 import okhttp3.*;
-import org.apache.http.HttpResponse;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.client.DefaultHttpClient;
 
 import java.io.IOException;
 

@@ -21,7 +21,7 @@ public class RestClient
 
     public void doPostAccessEntry(String message)
     {
-        // TODO: implement a HTTP POST on the service to post the message
+        // DOME: implement a HTTP POST on the service to post the message
         RequestBody body = RequestBody.create(new Gson().toJson(new AccessMessage(message)),
                 MediaType.parse("application/json"));
         Request request = new Request.Builder().url(host + logpath).post(body).build();
@@ -42,7 +42,7 @@ public class RestClient
     {
         AccessCode code = null;
 
-        // TODO: implement a HTTP GET on the service to get current access code
+        // DONE: implement a HTTP GET on the service to get current access code
 
         Request request = new Request.Builder().url(host + codepath).get().build();
 
